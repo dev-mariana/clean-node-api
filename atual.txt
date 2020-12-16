@@ -4,3 +4,9 @@
         "npm run test:staged"
     ]
 }
+
+{
+    "hooks": {
+        "pre-commit": "lint-staged"
+    }
+}
