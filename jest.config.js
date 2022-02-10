@@ -3,7 +3,7 @@ module.exports = {
   collectCoverageFrom: ['<rootDir>/src/**/*.ts'],
   collectCoverage: true,
   coverageDirectory: "coverage",
-  coverageProvider: "v8",
+  coverageProvider: "babel",
   testEnvironment: "jest-environment-node",
   transform: {
     '.+\\.ts$': 'ts-jest'
